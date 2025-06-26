@@ -1,0 +1,19 @@
+<?php
+
+namespace Vendor\GlobalMoney;
+
+use Illuminate\Support\ServiceProvider;
+
+class GlobalMoneyServiceProvider extends ServiceProvider
+{
+    public function boot(): void
+    {
+        $this->publishes([
+            __DIR__ . '/../config/global-money.php' => config_path('global-money.php'),
+        ], 'global-money-config');
+
+        $this->mergeConfigFrom(
+            __DIR__ . '/../config/global-money.php', 'global-money'
+        );
+    }
+}

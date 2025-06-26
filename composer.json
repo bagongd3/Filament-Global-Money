@@ -1,0 +1,23 @@
+{
+  "name": "vendor/filament-global-money",
+  "description": "Global Money plugin for Filament: input, table, infolist formatting for currency",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Vendor\\GlobalMoney\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Vendor\\GlobalMoney\\GlobalMoneyServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "filament/forms": "^3.0",
+    "filament/tables": "^3.0"
+  }
+}
