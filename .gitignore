@@ -1,0 +1,36 @@
+# Composer dependencies
+/vendor
+
+# Environment files (jika ada testing)
+.env
+.env.*
+
+# Logs
+*.log
+phpunit.result.cache
+/.phpunit.result.cache
+
+# IDE / Editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS / Windows
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Node (jika plugin punya frontend build)
+node_modules/
+dist/
+public/build/
+*.tsbuildinfo
+
+# Testing coverage
+coverage/
+.phpunit.result.cache
+
+# GitHub Actions / CI artifacts
+/.github/workflows/*.cache

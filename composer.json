@@ -11,7 +11,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "bagongd3\\GlobalMoney\\GlobalMoneyServiceProvider"
+        "Bagongd3\\GlobalMoney\\GlobalMoneyServiceProvider"
       ]
     }
   },
