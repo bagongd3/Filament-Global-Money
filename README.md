@@ -17,7 +17,7 @@ Cocok untuk form input, tabel, dan tampilan data (infolist).
 ## 📦 Instalasi
 
 ```bash
-composer require vendor/filament-global-money
+composer require bagongd3/filament-global-money
 ````
 
 ### Publikasi konfigurasi (opsional)
