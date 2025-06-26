@@ -1,5 +1,5 @@
 {
-  "name": "vendor/filament-global-money",
+  "name": "bagongd3/filament-global-money",
   "description": "Global Money plugin for Filament: input, table, infolist formatting for currency",
   "type": "library",
   "license": "MIT",
@@ -11,7 +11,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Vendor\\GlobalMoney\\GlobalMoneyServiceProvider"
+        "bagongd3\\GlobalMoney\\GlobalMoneyServiceProvider"
       ]
     }
   },

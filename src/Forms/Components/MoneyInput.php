@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\GlobalMoney\Forms\Components;
+namespace Bagongd3\GlobalMoney\Forms\Components;
 
 use Filament\Forms\Components\TextInput;
 use Illuminate\Support\Facades\Config;

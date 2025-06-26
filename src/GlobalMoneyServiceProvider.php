@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\GlobalMoney;
+namespace Bagongd3\GlobalMoney;
 
 use Illuminate\Support\ServiceProvider;
 

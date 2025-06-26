@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\GlobalMoney\Tables\Columns;
+namespace Bagongd3\GlobalMoney\Tables\Columns;
 
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\Support\Facades\Config;

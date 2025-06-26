@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\GlobalMoney\Infolists\Components;
+namespace Bagongd3\GlobalMoney\Infolists\Components;
 
 use Filament\Infolists\Components\TextEntry;
 use Illuminate\Support\Facades\Config;
