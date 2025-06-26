@@ -5,7 +5,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Vendor\\GlobalMoney\\": "src/"
+      "Bagongd3\\GlobalMoney\\": "src/"
     }
   },
   "extra": {
