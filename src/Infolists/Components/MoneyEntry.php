@@ -21,7 +21,7 @@ class MoneyEntry extends TextEntry
             ->formatStateUsing(function ($state) use ($prefix, $suffix, $decimal, $thousands, $decimals) {
                 if ($state === null) return '-';
                 $formatted = number_format($state, $decimals, $decimal, $thousands);
-                $formatted = preg_replace('/' . preg_quote($decimal) + '0+$/', '', $formatted);
+                $formatted = preg_replace('/' . preg_quote($decimal) . '0+$/', '', $formatted);
                 return $prefix . ' ' . $formatted . $suffix;
             });
     }

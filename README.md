@@ -23,14 +23,14 @@ composer require bagongd3/filament-global-money
 ### Publikasi konfigurasi (opsional)
 
 ```bash
-php artisan vendor:publish --tag=global-money-config
+php artisan vendor:publish --tag=filament-global-money-config
 ```
 
 ---
 
 ## ⚙️ Konfigurasi
 
-File konfigurasi: `config/global-money.php`
+File konfigurasi: `config/filament-global-money.php`
 
 ```php
 return [
@@ -49,7 +49,7 @@ return [
 ### 📋 Text Input (Form)
 
 ```php
-use Vendor\\GlobalMoney\\Forms\\Components\\MoneyInput;
+use Bagongd3\\GlobalMoney\\Forms\\Components\\MoneyInput;
 
 MoneyInput::make('price'),
 ```
@@ -57,7 +57,7 @@ MoneyInput::make('price'),
 ### 📊 Text Column (Tabel)
 
 ```php
-use Vendor\\GlobalMoney\\Tables\\Columns\\MoneyColumn;
+use Bagongd3\\FilamentGlobalMoney\\Tables\\Columns\\MoneyColumn;
 
 MoneyColumn::make('amount'),
 ```
@@ -65,7 +65,7 @@ MoneyColumn::make('amount'),
 ### 📎 Infolist Entry (Detail)
 
 ```php
-use Vendor\\GlobalMoney\\Infolists\\Components\\MoneyEntry;
+use Bagongd3\\FilamentGlobalMoney\\Infolists\\Components\\MoneyEntry;
 
 MoneyEntry::make('total'),
 ```

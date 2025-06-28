@@ -24,7 +24,7 @@ class MoneyInput extends TextInput
             ->formatStateUsing(function ($state) use ($decimal, $thousands, $decimals) {
                 if ($state === null) return null;
                 $formatted = number_format($state, $decimals, $decimal, $thousands);
-                return preg_replace('/' . preg_quote($decimal) + '0+$/', '', $formatted);
+                return preg_replace('/' . preg_quote($decimal) . '0+$/', '', $formatted);
             })
             ->dehydrateStateUsing(function ($state) use ($decimal, $thousands) {
                 return (float) str_replace([$thousands, $decimal], ['', '.'], $state);
