@@ -1,6 +1,6 @@
 <?php
 
-namespace Bagongd3\GlobalMoney\Forms\Components;
+namespace Bagongd3\FilamentGlobalMoney\Forms\Components;
 
 use Filament\Forms\Components\TextInput;
 use Illuminate\Support\Facades\Config;
@@ -11,11 +11,11 @@ class MoneyInput extends TextInput
     {
         parent::setUp();
 
-        $prefix = Config::get('global-money.prefix', 'Rp');
-        $suffix = Config::get('global-money.suffix', '');
-        $decimal = Config::get('global-money.decimal_separator', ',');
-        $thousands = Config::get('global-money.thousands_separator', '.');
-        $decimals = Config::get('global-money.decimals', 2);
+        $prefix = Config::get('filament-global-money.prefix', 'Rp');
+        $suffix = Config::get('filament-global-money.suffix', '');
+        $decimal = Config::get('filament-global-money.decimal_separator', ',');
+        $thousands = Config::get('filament-global-money.thousands_separator', '.');
+        $decimals = Config::get('filament-global-money.decimals', 2);
 
         $this
             ->prefix($prefix)

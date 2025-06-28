@@ -5,19 +5,27 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Bagongd3\\GlobalMoney\\": "src/"
+      "Bagongd3\\FilamentGlobalMoney\\": "src/"
     }
+  },
+  "authors": [
+    {
+        "name": "Bagong De",
+        "email": "bagongde234@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "laravel/framework": "^9.0 || ^10.0 || ^11.0",
+    "filament/support": "^3.0",
+    "filament/forms": "^3.0",
+    "filament/tables": "^3.0"
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Bagongd3\\GlobalMoney\\GlobalMoneyServiceProvider"
+        "Bagongd3\\FilamentGlobalMoney\\GlobalMoneyServiceProvider"
       ]
     }
-  },
-  "require": {
-    "php": ">=8.1",
-    "filament/forms": "^3.0",
-    "filament/tables": "^3.0"
   }
 }
