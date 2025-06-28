@@ -85,4 +85,4 @@ MoneyEntry::make('total'),
 
 ## 🙏 Kredit
 
-Dikembangkan dengan 🤖 oleh [234Creation](https://github.com/234Creation)
+Dikembangkan dengan 🤖 oleh [bagongd3](https://github.com/bagongd3)
